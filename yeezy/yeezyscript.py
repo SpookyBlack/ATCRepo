@@ -23,7 +23,7 @@ driver8 = webdriver.Chrome()
 driver9 = webdriver.Chrome()
 
 driver10 = webdriver.Chrome()
-url = "http://www.adidas.com/us/pureboost-ltd-shoes/S80701.html"
+url = "http://www.adidas.com/yeezy"
 def dodriver1():
     driver1.set_window_size(1, 1)
     driver1.refresh()
