@@ -26,7 +26,6 @@ driver10 = webdriver.Chrome()
 url = "http://www.adidas.com/yeezy"
 def dodriver1():
     driver1.set_window_size(1, 1)
-    driver1.refresh()
     driver1.implicitly_wait(5)
     driver1.get(url)
     try:
@@ -39,7 +38,6 @@ def dodriver1():
         dodriver1()
 def dodriver2():
     driver2.set_window_size(1, 1)
-    driver2.refresh()
     driver2.implicitly_wait(5)
     driver2.get(url)
     try:
