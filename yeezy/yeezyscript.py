@@ -144,6 +144,7 @@ def dodriver10():
         return
     except NoSuchElementException:
         driver10.delete_all_cookies()
+        dodriver10()
 
 
 if __name__ == '__main__':
