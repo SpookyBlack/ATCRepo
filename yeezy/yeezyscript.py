@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# written by owen kealey
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from threading import Thread
