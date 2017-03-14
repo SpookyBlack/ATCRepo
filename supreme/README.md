@@ -6,3 +6,5 @@ First, download the file off of this repo. Then navigate to the directory where 
  3. Download selenium: pip install selenium
  4. Download Google Chrome off of Google's website.
  5. make the file executable: chmod u+x supremegitbot.py
+ 6. Run the program: python supremegitbot.py
+ 
